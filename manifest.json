@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Kipper.ai Bypass Paywall",
+    "version": "1.0",
+    "description": "Remove paywalls e elementos bloqueadores do site Kipper.ai",
+    "icons": {
+      "128": "icon.png"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Kipper.ai Bypass Paywall"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
