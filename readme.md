@@ -18,7 +18,7 @@ Ferramenta para remover o paywall do Kipper.ai e restaurar o acesso ao conteúdo
 ## 🛠 Instalação
 
 🔧 Passo 1: Preparar os Arquivos
-Baixe os arquivos da extensão aqui (normalmente fica no formato .zip)
+Baixe os arquivos da extensão [aqui](https://github.com/Krisner94/kipper.ai-bypass-paywall/archive/refs/tags/v1.0.0.zip) (normalmente fica no formato .zip)
 
 Extraia a pasta em um local seguro que você não vai deletar por engano(ex: C:\extensoes\kipper-bypass)
 
